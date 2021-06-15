@@ -1,0 +1,61 @@
+body {
+    align-items: center;
+    background-image: linear-gradient(
+            180deg, 
+            #EAEAEA 5%, 
+            #FAF76B 20%, 
+            #87501F 60%, 
+            #F7C49D 95%
+        );
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    position: inline;
+    width: 100%;
+  }
+  
+  main > h1 {
+  color: #87501F;
+  font-family: fantasy;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 0.2em #F7C49D;
+  }
+  
+  section.quatropersonagens {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  display: flex;
+  flex-direction: line;
+  justify-content: center;
+  margin: 50px;
+  height: 300px;
+  width: 900px;
+  }
+  
+  section.quatropersonagens img {
+  background-color: #F7C49D;
+  border-radius: 200px;
+  height: 200px;
+  padding: 10px;
+  width: 200px;
+  }
+  
+  section.quatropersonagens p {
+  color: #87501F;
+  font-family: fantasy;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  text-align: center;
+  text-shadow: 0 0 0.2em #F7C49D;
+  }
